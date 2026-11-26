@@ -9,8 +9,33 @@
 <section class="wrap block" id="forces"><h2>당기는 힘, 누르는 힘</h2>
 <div class="cards">
 <figure class="card"><h3><span lang="en">Tension</span> · 장력</h3>
-<svg viewBox="0 0 320 100" role="img" aria-label="줄의 왼쪽 끝은 왼쪽으로, 오른쪽 끝은 오른쪽으로 당깁니다">
-<path stroke="#17635e" stroke-width="4" d="M84 50H236"/><path class="force" d="M84 50H26m12-9-12 9 12 9M236 50h58m-12-9 12 9-12 9"/>
+<svg viewBox="0 0 400 208" role="img" aria-label="두 사람이 팽팽한 줄을 잡아당깁니다. 왼쪽 사람은 줄을 왼쪽으로, 오른쪽 사람은 줄을 오른쪽으로 당깁니다.">
+  <rect x="3" y="12" width="394" height="188" rx="16" fill="#edf6f6"/>
+  <path d="M28 181H372" stroke="#b9d2d5" stroke-width="2" stroke-linecap="round"/>
+  <!-- Feet and legs brace against the floor. -->
+  <path d="m72 126 4 24-19 24m32-46 17 23 17 23" fill="none" stroke="#243c62" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m325 126-4 24 19 24m-32-46-17 23-17 23" fill="none" stroke="#40599c" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 176h17m55 0h15m201 0h17m-89 0h16" fill="none" stroke="#182a41" stroke-width="8" stroke-linecap="round"/>
+  <!-- Torso silhouettes and faces. -->
+  <path d="M53 89q13-17 33-12 14 3 21 18l-14 10 5 26-32 6z" fill="#248879"/>
+  <path d="M347 89q-13-17-33-12-14 3-21 18l14 10-5 26 32 6z" fill="#49549c"/>
+  <path d="M64 74v8q5 6 12 1l1-10" fill="#d48a63"/>
+  <path d="M324 73v9q6 6 12 0v-9" fill="#a96143"/>
+  <circle cx="73" cy="63" r="17" fill="#edae87"/>
+  <circle cx="327" cy="63" r="17" fill="#bd7955"/>
+  <path d="M57 68q-9-9-2-20 3-8 12-8 8-4 15 2 8 1 8 11-12 6-26 3l-2 13z" fill="#243247"/>
+  <path d="M311 61q-5-12 5-18 16-9 26 4 5 7 2 17l-7 3-2-12q-11 5-24 6z" fill="#243247"/>
+  <g fill="#243247"><circle cx="81" cy="62" r="1.5"/><circle cx="319" cy="63" r="1.5"/></g>
+  <path d="M78 70q4 2 7-1m230 0q3 3 7 2" fill="none" stroke="#6e422f" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Hands meet the taut central span. The loose tails curve down. -->
+  <path d="m90 94 18 14 19 1m183-15-18 14-19 1" fill="none" stroke="#754735" stroke-opacity=".18" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m90 94 18 14 19 1" fill="none" stroke="#edae87" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m310 94-18 14-19 1" fill="none" stroke="#bd7955" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M94 148c15-5 9-31 32-33h148c23 2 17 28 32 33" fill="none" stroke="#9a5430" stroke-width="6" stroke-linecap="round"/>
+  <path d="M133 115h134" fill="none" stroke="#e0a36c" stroke-width="2" stroke-dasharray="3 4"/>
+  <path d="M128 112v7m-6-7v6" stroke="#edae87" stroke-width="5" stroke-linecap="round"/>
+  <path d="M272 112v7m6-7v6" stroke="#bd7955" stroke-width="5" stroke-linecap="round"/>
+  <path class="force" d="M181 93h-48m9-7-9 7 9 7m77-7h48m-9-7 9 7-9 7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg><figcaption>줄의 양 끝을 바깥쪽으로 당기면 줄 내부에 장력이 생깁니다. 팽팽한 줄은 연결된 물체를 줄의 방향으로 당깁니다.</figcaption><p class="english" lang="en">Tension is a pulling force transmitted through a taut rope or cable.</p></figure>
 <figure class="card"><h3><span lang="en">Compression</span> · 압축력</h3>
 <svg viewBox="0 0 320 100" role="img" aria-label="막대의 양 끝에 중심을 향하는 화살표가 있습니다">
@@ -18,7 +43,17 @@
 </svg><figcaption>막대의 양 끝을 안쪽으로 누르면 막대 내부에 압축력이 생깁니다. 그림의 화살표는 각 부재의 끝에 가해지는 힘을 나타냅니다.</figcaption><p class="english" lang="en">Compression pushes the ends of a member toward each other.</p></figure>
 </div></section>
 <section class="wrap block" id="structure"><div class="hero-grid"><div><h2>힘이 만드는 구조</h2><p>이 3막대 텐서그리티에서는 서로 직접 닿지 않는 압축 막대 세 개를 장력을 받는 케이블 아홉 개가 연결합니다. 케이블에 미리 걸린 장력과 막대의 압축력이 균형을 이루어 형태를 유지합니다. 외부 하중이 가해지면 여러 부재의 내부 힘이 함께 달라질 수 있습니다.</p><p class="english" lang="en">In a three-strut tensegrity prism, a prestressed network of nine cables holds three separate compression struts in equilibrium.</p></div>
-<figure><img src="prism.svg" width="360" height="310" alt="삼각형 두 개와 층 사이를 잇는 케이블 세 개, 서로 다른 꼭짓점을 연결하는 두꺼운 압축 막대 세 개" style="max-width:100%;height:auto"><figcaption>3막대 텐서그리티의 연결도. 그림에서 겹쳐 보이는 선은 여섯 꼭짓점에서 연결됩니다.</figcaption><div class="legend"><span><i class="key" aria-hidden="true"></i>케이블 9개</span><span><i class="key strut" aria-hidden="true"></i>막대 3개</span></div></figure></div>
+<figure><svg viewBox="0 0 360 310" role="img" aria-label="짙은 케이블 아홉 개와 밝은 나무색 압축 막대 세 개가 여섯 꼭짓점에서 연결됩니다">
+<defs><linearGradient id="wood-tone" x1="0%" y1="0%" x2="100%" y2="80%">
+  <stop offset="0%" stop-color="#d6aa62"/>
+  <stop offset="52%" stop-color="#f2d596"/>
+  <stop offset="100%" stop-color="#c79853"/>
+</linearGradient></defs>
+<!-- Three-node triangles, three interlayer cables, and three disjoint struts. -->
+<path fill="none" stroke="#29333c" stroke-width="2.7" stroke-linejoin="round" d="M60 84 L244 42 L264 136 Z M97 212 L185 174 L282 241 Z M60 84 L97 212 M244 42 L185 174 M264 136 L282 241"/>
+<g fill="none" stroke-linecap="round"><path stroke="#856239" stroke-width="10" d="M60 84 L282 241 M244 42 L97 212 M264 136 L185 174"/><path stroke="url(#wood-tone)" stroke-width="8" d="M60 84 L282 241 M244 42 L97 212 M264 136 L185 174"/></g>
+<g fill="#29333c" stroke="#ffffff" stroke-width="1.5"><circle cx="60" cy="84" r="5"/><circle cx="244" cy="42" r="5"/><circle cx="264" cy="136" r="5"/><circle cx="97" cy="212" r="5"/><circle cx="185" cy="174" r="5"/><circle cx="282" cy="241" r="5"/></g>
+</svg><figcaption>3막대 텐서그리티의 연결도. 그림에서 겹쳐 보이는 선은 여섯 꼭짓점에서 연결됩니다.</figcaption><div class="legend"><span><i class="key" style="border-color:#29333c" aria-hidden="true"></i>케이블 9개</span><span><i class="key strut" style="border-color:#bf8e4b" aria-hidden="true"></i>막대 3개</span></div></figure></div>
 <table aria-label="장력과 텐서그리티 비교"><thead><tr><th scope="col">구분</th><th scope="col" lang="en">Tension</th><th scope="col" lang="en">Tensegrity</th></tr></thead><tbody>
 <tr><th scope="row">뜻</th><td>부재를 당기는 힘</td><td>장력과 압축력의 균형으로 유지되는 구조 원리</td></tr>
 <tr><th scope="row">볼 곳</th><td>팽팽한 줄 한 가닥</td><td>케이블과 막대가 연결된 전체 모형</td></tr>
