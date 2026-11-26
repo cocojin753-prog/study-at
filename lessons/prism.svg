@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 310">
+<style>.c{fill:none;stroke:#17635e;stroke-width:2.7;stroke-linejoin:round}.r{fill:none;stroke:#a14025;stroke-width:8;stroke-linecap:round}.j{fill:#182a41;stroke:#ffffff;stroke-width:2}</style>
+<!-- Three-node triangles, three interlayer cables, and three disjoint struts. -->
+<path class="c" d="M60 84 L244 42 L264 136 Z M97 212 L185 174 L282 241 Z M60 84 L97 212 M244 42 L185 174 M264 136 L282 241"/>
+<path class="r" d="M60 84 L282 241 M244 42 L97 212 M264 136 L185 174"/>
+<g class="j"><circle cx="60" cy="84" r="5"/><circle cx="244" cy="42" r="5"/><circle cx="264" cy="136" r="5"/><circle cx="97" cy="212" r="5"/><circle cx="185" cy="174" r="5"/><circle cx="282" cy="241" r="5"/></g>
+</svg>
